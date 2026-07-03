@@ -10,4 +10,4 @@ elif col1 + col2 in ("redblue","bluered") :
 elif col1 + col2 in ("yellowblue","blueyellow") :
     print("Green")
 elif col1 == col2 :
-    print("Error")
+    print(col1.title())
