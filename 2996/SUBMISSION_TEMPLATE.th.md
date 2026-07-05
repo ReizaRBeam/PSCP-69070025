@@ -15,25 +15,25 @@
 หมายเลข/ชื่อโจทย์ OJ:
 
 ```text
-
+2996
 ```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
-
+541630
 ```
 
 สถานะ OJ:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
 ```text
-
+0-15 minutes
 ```
 
 เลือกหนึ่งข้อ:
@@ -73,7 +73,7 @@ More than 4 weeks
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
 ```text
-
+รับinputมาก่อนเป็นพิมพ์เล็กไปเลยเพราะต้องprintเป็นพิมพ์เล็กอยู่แล้ว แล้วสร้างคำใหม่โดยใช้ตัวแปรสตริงว่าง แล้วรันไล่จากตัวท้ายของinput โดยใช้[-i - 1](ตัวแรกจะเป็น0 เลยต้อง-1 และให้เป็นลบเพื่อเริ่มรันจากท้ายมา)เอามาเพิ่มให้ตัวแปรว่างเป็นคำใหม่ วนซ้ำ(for i in)ตามความยาว(range(len(inp)))ใช้lenเพราะเป็นสตริง จะให้i เป็นint เลยให้วัดเป็นความยาวด้วยlenมาแทน แล้วค่อยprintคำใหม่
 ```
 
 ---
@@ -93,9 +93,9 @@ More than 4 weeks
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1:รับอินพุตเป็นพิมพ์เล็ก
+Step 2:รันตัวท้ายมาใส่คำใหม่จนครบ
+Step 3:printแสดงผล
 ```
 
 ---
@@ -115,7 +115,7 @@ Step 3:
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
 ```text
-
+เหมือนแผนแรก เพราะคิดว่าใช้ได้จริงเพราะคิดครอบคลุมกรณีเป็นพิมพ์ใหญ่มาแล้ว และกรณีที่เกิน5ตัว และลองแล้วก็ได้จริง
 ```
 
 ---
@@ -135,31 +135,31 @@ Step 3:
 ทำไมเลือก case นี้:
 
 ```text
-
+ดูง่าย
 ```
 
 Input:
 
 ```text
-
+qwert
 ```
 
 Expected output:
 
 ```text
-
+trewq
 ```
 
 Actual output:
 
 ```text
-
+trewq
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +167,31 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+ดูง่ายและมีพิมพ์ใหญ่มาเพิ่ม
 ```
 
 Input:
 
 ```text
-
+asDFg
 ```
 
 Expected output:
 
 ```text
-
+gfdsa
 ```
 
 Actual output:
 
 ```text
-
+gfdsa
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +199,31 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+ดูง่ายและมีพิมพ์ใหญ่มาเพิ่ม
 ```
 
 Input:
 
 ```text
-
+ZXcvB
 ```
 
 Expected output:
 
 ```text
-
+bvcxz
 ```
 
 Actual output:
 
 ```text
-
+bvcxz
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +233,7 @@ Pass / Not Pass
 ใช้ AI กับโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+Yes
 ```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
@@ -251,7 +251,7 @@ ai_reflection.md
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+Yes
 ```
 
 ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
@@ -276,19 +276,19 @@ Yes / No
 ใครช่วยคุณ
 
 ```text
-
+My Pair
 ```
 
 เขาช่วยอะไร
 
 ```text
-
+ช่วยกันคิดโค้ด
 ```
 
 คุณยังทำอะไรด้วยตนเอง
 
 ```text
-
+เขียนโค้ด
 ```
 
 คุณคัดลอก code จากคนอื่นหรือไม่
@@ -305,10 +305,10 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. |Yes|
+| I understand my final code. |Yes|
+| I recorded the real OJ status. |Yes|
+| I did not copy AI-generated text directly into this file. |Yes|
+| I did not copy code from another person. |Yes|
+| If I received human help, I disclosed it in this file. |Yes|
+| I submitted the final code to the OJ by myself. |Yes|
