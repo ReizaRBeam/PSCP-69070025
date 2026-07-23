@@ -15,25 +15,25 @@
 หมายเลข/ชื่อโจทย์ OJ:
 
 ```text
-
+3024
 ```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
-
+548988
 ```
 
 สถานะ OJ:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
 ```text
-
+30-60 minutes
 ```
 
 เลือกหนึ่งข้อ:
@@ -73,7 +73,11 @@ More than 4 weeks
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
 ```text
-
+รับค่ามา แล้วดูกรณีที่ตัวสุดท้ายมีค่าน้อยสุด หมายความว่ามี2กรณี
+1.ตัว2เท่าตัวมากสุด เช่น 27:10 10 7
+2.ตัว2มีค่ามาก แต่ไม่สามารถเท่าตัวมากสุดได้ 18:10 8 0
+เลยต้องเข้าเงื่อนไขให้เป็นไปตามเงื่อนไขทั้งสองที่ว่ามา
+แล้วมาคำนวนหาตัวมากสุด-ตัวน้อยสุดแล้วดูว่ามันต่างกันเกินสองมั้ย
 ```
 
 ---
@@ -93,9 +97,9 @@ More than 4 weeks
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1:รับค่ามา แล้วเฉลี่ยอีกสองตัวที่เหลือ
+Step 2:แล้วเอามาคำนวนหาความต่าง
+Step 3:เข้าเงื่อนไขแล้วแสดงผล
 ```
 
 ---
@@ -115,7 +119,12 @@ Step 3:
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
 ```text
-
+รับค่ามา แล้วดูกรณีที่ตัวสุดท้ายมีค่าน้อยสุด
+1.ตัว2เท่าตัวมากสุด เช่น 27:10 10 7 เอามาคำนวนหาตัวท้ายโดยตัวสองเท่ากับตัวแรก
+2.ตัว2มีค่ามาก แต่ไม่สามารถเท่าตัวมากสุดได้ เช่น 18:10 8 0 ปรับตัวท้ายเป็น0ทันที
+เลยต้องเข้าเงื่อนไขให้เป็นไปตามเงื่อนไขทั้งสองที่ว่ามา
+แล้วมาคำนวนหาตัวมากสุด-ตัวน้อยสุดแล้วดูว่ามันต่างกันเกินสองมั้ย
+แล้วแสดงผล
 ```
 
 ---
@@ -135,31 +144,32 @@ Step 3:
 ทำไมเลือก case นี้:
 
 ```text
-
+ดูง่าย
 ```
 
 Input:
 
 ```text
-
+27
+10
 ```
 
 Expected output:
 
 ```text
-
+Surprising
 ```
 
 Actual output:
 
 ```text
-
+Surprising
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +177,32 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+ดูง่าย
 ```
 
 Input:
 
 ```text
-
+18
+10
 ```
 
 Expected output:
 
 ```text
-
+Surprising
 ```
 
 Actual output:
 
 ```text
-
+Surprising
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +210,32 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+ดูง่าย
 ```
 
 Input:
 
 ```text
-
+29
+10
 ```
 
 Expected output:
 
 ```text
-
+Not surprising
 ```
 
 Actual output:
 
 ```text
-
+Not surprising
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +245,7 @@ Pass / Not Pass
 ใช้ AI กับโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+No
 ```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
@@ -251,7 +263,7 @@ ai_reflection.md
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+Yes
 ```
 
 ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
@@ -276,19 +288,19 @@ Yes / No
 ใครช่วยคุณ
 
 ```text
-
+เพื่อน /// My pair
 ```
 
 เขาช่วยอะไร
 
 ```text
-
+ช่วยออกความเห็นเรื่องโค้ด /// ช่วยกันคิดหาวิธีแก้โค้ด
 ```
 
 คุณยังทำอะไรด้วยตนเอง
 
 ```text
-
+เขียนโค้ด
 ```
 
 คุณคัดลอก code จากคนอื่นหรือไม่
@@ -305,10 +317,10 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. |Yes|
+| I understand my final code. |Yes|
+| I recorded the real OJ status. |Yes|
+| I did not copy AI-generated text directly into this file. |Yes|
+| I did not copy code from another person. |Yes|
+| If I received human help, I disclosed it in this file. |Yes|
+| I submitted the final code to the OJ by myself. |Yes|
