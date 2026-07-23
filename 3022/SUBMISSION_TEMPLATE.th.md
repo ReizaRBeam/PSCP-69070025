@@ -15,25 +15,25 @@
 หมายเลข/ชื่อโจทย์ OJ:
 
 ```text
-
+3022
 ```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
-
+548474
 ```
 
 สถานะ OJ:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
 ```text
-
+0-15 minutes
 ```
 
 เลือกหนึ่งข้อ:
@@ -73,7 +73,7 @@ More than 4 weeks
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
 ```text
-
+รับอุณหภูมิมา แล้วค่อยรับองศาที่กำหนดและองศาที่ต้องการเปลี่ยนเป็น แล้วคำนวนเอา
 ```
 
 ---
@@ -93,9 +93,9 @@ More than 4 weeks
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1:รับค่าทั้งสาม
+Step 2:เช็คว่าเป็นองศาอะไรและจะเปลี่ยนเป็นอะไร
+Step 3:คำนวนแล้วแสดงค่า
 ```
 
 ---
@@ -115,7 +115,7 @@ Step 3:
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
 ```text
-
+เหมือนแผนแรก เพราะเข้าใจง่ายดี
 ```
 
 ---
@@ -135,31 +135,33 @@ Step 3:
 ทำไมเลือก case นี้:
 
 ```text
-
+เพราะเป็นC>K เลยคำนวนคำตอบก่อนทดสอบได้
 ```
 
 Input:
 
 ```text
-
+-273
+c
+K
 ```
 
 Expected output:
 
 ```text
-
+0.15
 ```
 
 Actual output:
 
 ```text
-
+0.15
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +169,33 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+เพราะเป็นR>F เลยคำนวนคำตอบก่อนทดสอบได้
 ```
 
 Input:
 
 ```text
-
+456
+R
+f
 ```
 
 Expected output:
 
 ```text
-
+-3.67
 ```
 
 Actual output:
 
 ```text
-
+-3.67
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +203,33 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+เพราะเป็นK>F เลยคำนวนคำตอบก่อนทดสอบได้
 ```
 
 Input:
 
 ```text
-
+237
+k
+F
 ```
 
 Expected output:
 
 ```text
-
+-33.07
 ```
 
 Actual output:
 
 ```text
-
+-33.07
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +239,7 @@ Pass / Not Pass
 ใช้ AI กับโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+No
 ```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
@@ -251,7 +257,7 @@ ai_reflection.md
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+Yes
 ```
 
 ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
@@ -276,19 +282,19 @@ Yes / No
 ใครช่วยคุณ
 
 ```text
-
+My pair
 ```
 
 เขาช่วยอะไร
 
 ```text
-
+ช่วยกันคิดโค้ด
 ```
 
 คุณยังทำอะไรด้วยตนเอง
 
 ```text
-
+เขียนโค้ด
 ```
 
 คุณคัดลอก code จากคนอื่นหรือไม่
@@ -305,10 +311,10 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. |Yes|
+| I understand my final code. |Yes|
+| I recorded the real OJ status. |Yes|
+| I did not copy AI-generated text directly into this file. |Yes|
+| I did not copy code from another person. |Yes|
+| If I received human help, I disclosed it in this file. |Yes|
+| I submitted the final code to the OJ by myself. |Yes|
