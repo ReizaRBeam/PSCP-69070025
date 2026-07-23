@@ -148,19 +148,19 @@ Step 6:แสดงผล
 Input:
 
 ```text
-100
+1000
 ```
 
 Expected output:
 
 ```text
-160.50
+1177.00
 ```
 
 Actual output:
 
 ```text
-160.50
+1177.00
 ```
 
 Result:
@@ -174,25 +174,25 @@ Pass
 ทำไมเลือก case นี้:
 
 ```text
-ดูง่าย(เอามาจากเว็บi judgeเลย)
+สุ่มมา
 ```
 
 Input:
 
 ```text
-1888
+5000
 ```
 
 Expected output:
 
 ```text
-2222.18
+5885.00
 ```
 
 Actual output:
 
 ```text
-2222.18
+5885.00
 ```
 
 Result:
@@ -206,25 +206,25 @@ Pass
 ทำไมเลือก case นี้:
 
 ```text
-ดูง่าย(เอามาจากเว็บi judgeเลย)
+สุ่มโจทย์มา
 ```
 
 Input:
 
 ```text
-99999
+12345
 ```
 
 Expected output:
 
 ```text
-108068.93
+14279.15
 ```
 
 Actual output:
 
 ```text
-108068.93
+14279.15
 ```
 
 Result:
